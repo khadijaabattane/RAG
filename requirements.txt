@@ -1,0 +1,10 @@
+streamlit
+transformers
+sentence-transformers
+scikit-learn
+torch
+langchain
+langchain-openai
+langchain-text-splitters
+PyPDF2
+tqdm
