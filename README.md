@@ -18,9 +18,7 @@ Une démonstration de pipeline RAG pour interroger et générer des réponses à
    * [2. Lancement de l’application Streamlit](#2-lancement-de-lapplication-streamlit)
    * [3. Exemple de notebook](#3-exemple-de-notebook)
 8. [Structure du projet](#structure-du-projet)
-9. [Tests](#tests)
-10. [Contribuer](#contribuer)
-11. [Licence](#licence)
+
 
 ---
 
