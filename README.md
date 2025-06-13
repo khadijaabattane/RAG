@@ -77,8 +77,8 @@ rag_contrats/
 1. Cloner le dépôt :
 
    ```bash
-   git clone https://github.com/ton-org/projet-rag.git
-   cd projet-rag
+   git clone git@github.com:khadijaabattane/RAG.git
+   cd rag
    ```
 2. Créer et activer un environnement virtuel :
 
@@ -112,8 +112,8 @@ rag_contrats/
 ### 1. Construction de l’index
 
 ```bash
-cd rag_contrats
-python -m rag_contrats.scripts.build_index
+cd rag
+python -m rag.scripts.build_index
 ```
 
 ### 2. Lancement de l’application Streamlit
@@ -121,7 +121,7 @@ python -m rag_contrats.scripts.build_index
 ```bash
 cd rag_contrats
 export PYTHONPATH=$(pwd)
-python -m streamlit run rag_contrats/app/app.py
+python -m streamlit run rag/app/app.py
 ```
 
 Puis ouvrez `http://localhost:8501` dans votre navigateur.
