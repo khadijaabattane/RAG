@@ -48,7 +48,7 @@ Ce projet met en œuvre un pipeline RAG  permettant de :
 ## Architecture
 
 ```
-rag_contrats/
+rag/
 ├── core/          # Modules du pipeline
 │   ├── config.py         # Chemins et constantes
 │   ├── loader.py         # Chargement des PDFs
@@ -112,19 +112,17 @@ rag_contrats/
 ### 1. Construction de l’index
 
 ```bash
-cd rag
 python -m rag.scripts.build_index
 ```
 
 ### 2. Lancement de l’application Streamlit
 
 ```bash
-cd rag_contrats
 export PYTHONPATH=$(pwd)
 python -m streamlit run rag/app/app.py
 ```
 
-Puis ouvrez `http://localhost:8501` dans votre navigateur.
+Puis ouvrez l'application en localhost dans votre navigateur.
 
 ### 3. Exemple de notebook
 
