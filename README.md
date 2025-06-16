@@ -2,7 +2,7 @@
 
 Une démonstration de pipeline RAG pour interroger et générer des réponses à partir de documents PDF (contrats, législation, etc.).
 
----
+
 
 ## Table des matières
 
@@ -20,7 +20,7 @@ Une démonstration de pipeline RAG pour interroger et générer des réponses à
 8. [Structure du projet](#structure-du-projet)
 
 
----
+
 
 ## Description du projet
 
