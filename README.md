@@ -57,8 +57,8 @@ rag/
 │   ├── vector_store.py   # Index FAISS
 │   ├── retriever.py      # Récupération RAG
 │   └── generator.py      # Appel LLM 
-│   ├── scripts/    # Scripts CLI (build_index)
-│   └── app/        # Application Streamlit
+├── scripts/    # Scripts (build_index)
+├── app/        # Application Streamlit
 ├── notebooks/     # Notebooks de démonstration
 ├── data/          # Répertoire des PDFs source
 └── README.md  
