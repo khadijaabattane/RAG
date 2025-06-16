@@ -1,7 +1,7 @@
 # config.py
 
 # PDF source directory
-PDF_DIR = "rag_contrats/data/pdf"
+PDF_DIR = "rag/data/pdf"
 
 # Output paths
 CHUNKS_PATH = "data/chunks.pkl"
