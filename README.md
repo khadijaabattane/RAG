@@ -131,7 +131,7 @@ Un notebook prêt à l’emploi se trouve dans `notebooks/demo_pipeline.ipynb` e
 ## Structure du projet
 
 * **core/** : code métier du pipeline RAG.
-* **scripts/** : scripts CLI.
+* **scripts/** : scripts build index.
 * **app/** : application Streamlit.
 * **notebooks/** : Jupyter notebooks de démo.
 * **data/** : exemples de PDF.
